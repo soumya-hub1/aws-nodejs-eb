@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'S3 CloudHub YT channel & Elastic Beanstalk'
+    title: 'RN Node JS code pipeline test'
     })
     res.status(200).end();
 })
